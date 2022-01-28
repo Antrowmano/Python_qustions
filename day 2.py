@@ -68,12 +68,17 @@ def palindrome():
 #	Input : [2,3,5] 
 #	Output : [4,9,25]
 
-def num():
-    numbers = [2,3,5] 
-    for number in numbers:
-        print(number ** 2)
+#def listnum():
+#    numbers = [2,3,5] 
+#    num = []
+#    for number in numbers:
+#        num.append(number ** 2)
+        print (num)
+    
         
-#num()
+
+        
+#listnum()
 
 #d.Print prime numbers between 1 to 100
 def prime(first,second):
@@ -85,4 +90,43 @@ def prime(first,second):
                 break
         else:
            print(i)
-prime(2,30)
+#prime(2,30)
+
+
+#c.Print fibonacci series starting from the given number till 100\
+
+#a = 0
+#b = 1
+#inc = 0
+
+#while inc < 10:
+#    print (a)
+#    temp = a + b
+#updating values
+#    a=b
+#    b=temp
+#    inc += 1
+
+
+#def fibonacci():
+#    var = input("my input: ")
+#    for i in range(var,100):
+#        print(var)
+#        tmp = var + 
+
+#fibonacci()
+
+def fib(n):
+    tmp=int(input("my input:"))
+    a = 0
+    b = 1
+    if n == 1:
+        print(a)
+    else:
+        for i in range(1,n):
+            c = a + b
+            a = b
+            b = c
+            if c >= tmp:
+                print(c)
+#fib(100)
