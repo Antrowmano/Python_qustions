@@ -78,10 +78,11 @@ def num():
 #d.Print prime numbers between 1 to 100
 def prime(first,second):
     for i in range(first,second):
+        #print(f"hey you   {i}")
         for a in range(2,i):
-            print(f"hey  {a}")
+        #    print(f"hey  {a}")
             if (i % a == 0):
                 break
         else:
            print(i)
-prime(2,5)
+prime(2,30)
