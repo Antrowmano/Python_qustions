@@ -16,10 +16,7 @@
             
 #number()
 
-#Write a function to remove duplicate items from a given list 
-#Input : [1,1,2,5,5,5,6,7,7]
-#Output : [1,2,5,6,7]
-
+ 
 
 
 def duplicate():
@@ -35,18 +32,16 @@ def duplicate():
 #Write a function to print True when the given string is palindrome
 #	i) “otto” -> True  ii) “ottoman” -> False
 #
-#palindrome():
+def palindrome():
 
-#    var = input("my input:")
-#    if(var == var[::-1]):
-#        print(var[::-1])
-#        print(var)
-#        print("this is palindrome")
-#    else:
-#       print(var)
-#        print("not a palindrome")
+    var = input("my input:")
+    if(var == var[::-1]):
+        print(var[::-1])
+        print("this is palindrome")
+    else:
+        print("not a palindrome")
 
-#palindrome()
+palindrome()
 
 def palindrome():
     a = 'otto'
@@ -73,7 +68,7 @@ def palindrome():
 #    num = []
 #    for number in numbers:
 #        num.append(number ** 2)
-        print (num)
+#        print (num)
     
         
 
@@ -82,6 +77,7 @@ def palindrome():
 
 #d.Print prime numbers between 1 to 100
 def prime(first,second):
+
     for i in range(first,second):
         #print(f"hey you   {i}")
         for a in range(2,i):
