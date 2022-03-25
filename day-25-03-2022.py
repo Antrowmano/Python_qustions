@@ -13,17 +13,17 @@
 # relation_to_luke("Leia") ➞ "Luke, I am your sister."
 # relation_to_luke("Han") ➞ "Luke, I am your brother in law."
 
-# def relation_to_luke(name):
-#     name=input("Enter your number: ")
-#     if name == 'Darth Vader':
-#         print("Luke, I am your father.")
-#     elif name == 'Leia':
-#         print("Luke, I am your sister.")
-#     elif name == 'Han':
-#         print("Luke, I am your brother in law")
-#     else:
-#         print("worng")
-# relation_to_luke('')
+def relation_to_luke(name):
+    name=input("Enter your number: ")
+    if name == 'Darth Vader':
+        print("Luke, I am your father.")
+    elif name == 'Leia':
+        print("Luke, I am your sister.")
+    elif name == 'Han':
+        print("Luke, I am your brother in law")
+    else:
+        print("worng")
+relation_to_luke('')
 
 # Default Mood
 
@@ -35,16 +35,16 @@
 # mood_today("sad") ➞ "Today, I am feeling sad"
 # mood_today() ➞ "Today, I am feeling neutral"
 
-# def mood_today(mood,msg="neutral"):
-#     mood=input("Enter your input: ")
-#     if mood:
-#         print(f"Today, I am feeling {mood}")
-#     else:
-#         print("Today, I am feeling " + msg)
+def mood_today(mood,msg="neutral"):
+    mood=input("Enter your input: ")
+    if mood:
+        print(f"Today, I am feeling {mood}")
+    else:
+        print("Today, I am feeling " + msg)
 
-# mood_today('happy')
+mood_today('happy')
 
-print 
+
     
 
 
