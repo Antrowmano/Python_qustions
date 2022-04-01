@@ -7,10 +7,10 @@
 # addition(-3, -6) ➞ -9
 # addition(7, 3) ➞ 10
 
-# def addition(a, b):
-# 	return(a+b)
+def addition(a, b):
+	return(a+b)
 
-# print(addition(-2,-4))
+print(addition(-2,-4))
 
 # Return the Next Number from the Integer Passed
 
@@ -21,9 +21,9 @@
 # addition(9) ➞ 10
 # addition(-3) ➞ -2
 
-# def addition(num):
-#     return(num+1)
-# print(addition(9))
+def addition(num):
+    return(num+1)
+print(addition(9))
 
 
 # Convert Minutes into Seconds
@@ -35,10 +35,10 @@
 # convert(3) ➞ 180
 # convert(2) ➞ 120
 
-# def convert(minutes):
-#     return(minutes*60)
+def convert(minutes):
+    return(minutes*60)
 
-# print(convert(2))
+print(convert(2))
 
 # Area of a Triangle
 
@@ -49,10 +49,10 @@
 # tri_area(7, 4) ➞ 14
 # tri_area(10, 10) ➞ 50
 
-# def tri_area(base, height):
-#     return(int((base*height)/2))
+def tri_area(base, height):
+    return(int((base*height)/2))
 
-# print(tri_area(7,4))
+print(tri_area(7,4))
 
 
 # Buggy Code (Part 1)
@@ -67,10 +67,10 @@
 # def cubes(a):
 #     	retunr a ** 3
 
-# def cubes(a):
-# 	return(a ** 3)
+def cubes(a):
+	return(a ** 3)
 
-# print(cubes(3))
+print(cubes(3))
 
 
 # Convert Hours into Seconds
@@ -83,10 +83,10 @@
 # how_many_seconds(24) ➞ 86400
 
 
-# def how_many_seconds(hours):
-#     return(hours *3600)
+def how_many_seconds(hours):
+    return(hours *3600)
 
-# print(how_many_seconds(10))
+print(how_many_seconds(10))
 
 # Return the Remainder from Two Numbers
 
