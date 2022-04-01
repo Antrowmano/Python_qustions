@@ -34,7 +34,7 @@ def less_than_or_equal_to_zero(num):
 
 less_than_or_equal_to_zero('')
 
-# Shuffle the Name
+# Is the Number Less than or Equal to Zero?
 
 # Create a function that takes a string (will be a person's first and last name) and returns a string with the first and last name swapped.
 
